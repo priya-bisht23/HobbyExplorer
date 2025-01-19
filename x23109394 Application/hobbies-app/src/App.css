@@ -1,0 +1,381 @@
+/* src/App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container, .signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form, .signup-form {
+  width: 100%;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.login-form h2{
+  text-align: center;
+}
+.signup-form h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add this at the bottom of your src/App.css */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+
+/* Reset some basic elements */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4567c5;
+  border-bottom: 2px solid;
+  color: white;
+  padding: 20px 20px;
+}
+
+.login-form input{
+  margin: 10px 0;
+}
+
+.signup-form input{
+  margin: 10px 0;
+}
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar-nav .nav-link.active {
+  color: white !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: white;
+}
+
+/* Banner styles */
+.banner {
+  background-image: url('../src/Images/hobbythree.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color : white;
+
+}
+
+.banner h1 {
+  margin-bottom: 10px;
+}
+
+/* Search form styles */
+.search-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.search-form input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+ 
+}
+
+.search-form button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+  background: #4567c5;
+  color: white;
+  border-top: 2px solid;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar.navbar-expand-lg.navbar-light{
+  padding: 20px 40px;
+}
+.hobby-info {
+  background-color: #f0f0f0; /* Light grey background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  padding: 40px; /* Spacing inside the box */
+ 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.hobby-info h2 {
+  color: #333; /* Darker text for the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.hobby-info p {
+  color: #666; /* Lighter text for the body */
+  line-height: 1.6; /* Improve readability */
+  margin-bottom: 8px; /* Space between paragraphs */
+}
+
+.hobby-info p:last-child {
+  margin-bottom: 0; /* Remove margin from the last paragraph */
+}
+
+.hobby-info .equipment, .hobby-info .benefits {
+  margin-left: 20px; /* Indent lists */
+}
+
+.search-form input[type="text"] {
+  border: 1px solid #ccc; /* Light grey border */
+  padding: 10px; /* Padding inside the input box */
+  border-radius: 4px; /* Rounded corners for the input box */
+  margin-right: 10px; /* Space between input box and button */
+}
+
+.search-form button {
+  background-color: #007bff; /* Bootstrap primary button color */
+  color: white; /* White text on the button */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 20px; /* Rounded corners for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.search-form button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* For contact us page*/
+.grid-70-30 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.get_form_inner {
+  display: block;
+  padding: 50px 40px;
+  background: #fff;
+  box-shadow: -4px -2px 20px -7px #cfd5df;
+}
+input[type="text"], input[type="text"], input[type="email"], input[type="tel"] {
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  color: #333;
+  height: 42px;
+  padding: 0 0 0 20px;
+  width: 100%;
+  outline: 0;
+}
+.grid-50-50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.grid-full {
+  margin: 20px 0;
+}
+textarea {
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  color: #333;
+  padding: 12px 0 0 20px;
+  width: 100%;
+  outline: 0;
+  margin-bottom: 20px;
+}
+.get_form_inner_text h3 {
+  color: #333;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+input[type="submit"] {
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid;
+  font-weight: 500;
+  padding: 10px 20px;
+  outline: 0;
+  cursor: pointer;
+  color: #103e65;
+  transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -webkit-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -moz-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -ms-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -o-transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+input[type="submit"]:hover {
+  background-color: #f85508;
+  border-color: #f85508;
+  color: #fff;
+}
+.get_say_form {
+  display: inline-block;
+  padding: 45px 0 25px 30px;
+  background: #4567c5;
+  position: relative;
+}
+.get_say_form h5 {
+  color: #fff;
+  font-size: 26px;
+  margin: 0 0 40px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.get_say_social-icn {
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+}
+.get_say_social-icn a {
+  font-size: 22px;
+  color: #fff;
+  padding: 0 20px 0 0;
+}
+.get_say_info_sec i {
+  color: #fff;
+  font-size: 32px;
+}
+.get_say_info_sec > li {
+  display: grid;
+  grid-template-columns: 40px auto;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.get_say_info_sec > li a {
+  width: 100%;
+  display: block;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: unset;
+  font-weight: 500;
+  background: #162b65;
+  border-radius: 5px 0 0 5px;
+  transition: background 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -webkit-transition: background 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -moz-transition: background 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -ms-transition: background 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -o-transition: background 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.get_say_info_sec > li a:hover {
+  background-color: #f85508;
+}
+
+/* For about us page*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+/* For trivia page*/
+.tournament-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tournament-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Bootstrap overrides and additional styling */
+.dropdown-item {
+  color: #495057;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.dropdown-toggle:after {
+  border-top: .3em solid;
+}
+
+#dropdown-basic-button {
+  border: 0;
+  background-color: #f8f9fa;
+  color: #495057;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  transition: background-color 0.15s ease-in-out;
+}
+
+#dropdown-basic-button:hover {
+  background-color: #e9ecef;
+}
+

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2611422.css",
+    "main.js": "/static/js/main.463775d9.js",
+    "static/js/453.f07c2202.chunk.js": "/static/js/453.f07c2202.chunk.js",
+    "static/media/hobbythree.png": "/static/media/hobbythree.5924496d7a1273157c42.png",
+    "index.html": "/index.html",
+    "main.a2611422.css.map": "/static/css/main.a2611422.css.map",
+    "main.463775d9.js.map": "/static/js/main.463775d9.js.map",
+    "453.f07c2202.chunk.js.map": "/static/js/453.f07c2202.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2611422.css",
+    "static/js/main.463775d9.js"
+  ]
+}
