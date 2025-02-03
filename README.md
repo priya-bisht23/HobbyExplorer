@@ -33,16 +33,20 @@ Ensure you have the following installed:
 
 Clone the Repository
 
-git clone https://github.com/priya-bisht23/hobbyproject.git
+git clone https://github.com/priya-bisht23/hobbyproject.git  
+
 cd hobbyproject-main
 
 Install Dependencies
 
 Navigate to respective directories and install required dependencies:
 
-cd x23109394 Application/backend
-npm install
-cd ../hobbies-app
+cd x23109394 Application/backend  
+
+npm install  
+
+cd ../hobbies-app  
+
 npm install
 
 # Usage
