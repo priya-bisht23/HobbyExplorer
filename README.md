@@ -31,12 +31,12 @@ Ensure you have the following installed:
 
 # Steps to Install
 
-1. Clone the Repository
+Clone the Repository
 
-git clone 
+git clone https://github.com/priya-bisht23/hobbyproject.git
 cd hobbyproject-main
 
-2. Install Dependencies
+Install Dependencies
 
 Navigate to respective directories and install required dependencies:
 
@@ -47,12 +47,12 @@ npm install
 
 # Usage
 
-1. Start the Backend Server
+Start the Backend Server
 
 cd x23109394 Application/backend
 npm start
 
-2. Start the Frontend
+Start the Frontend
 
 cd x23109394 Application/hobbies-app
 npm start
