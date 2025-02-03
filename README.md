@@ -7,21 +7,23 @@ The HobbyExplorer is a web application designed to help users explore, track, an
 
 # Technologies
 
-Frontend: React (hobbies-app)
+1. Frontend: React (hobbies-app)
 
-Backend: Node.js / Express (backend)
+2. Backend: Node.js / Express (backend)
 
-API: REST API (API folder)
+3. API: REST API (API folder)
 
-Database: MongoDB
+4. Database: MongoDB
 
-Authentication: JWT
+5. Authentication: JWT
 
-Package Manager: npm
+6. Package Manager: npm
 
 # Installation
 
-Prerequisites : Ensure you have the following installed:
+Prerequisites
+
+Ensure you have the following installed:
 
 1. Node.js & npm
 
@@ -32,13 +34,13 @@ Prerequisites : Ensure you have the following installed:
 1. Clone the Repository
 
 git clone 
-cd HobbyHub
+cd hobbyproject-main
 
 2. Install Dependencies
 
 Navigate to respective directories and install required dependencies:
 
-cd backend
+cd x23109394 Application/backend
 npm install
 cd ../hobbies-app
 npm install
@@ -47,12 +49,12 @@ npm install
 
 1. Start the Backend Server
 
-cd backend
+cd x23109394 Application/backend
 npm start
 
 2. Start the Frontend
 
-cd hobbies-app
+cd x23109394 Application/hobbies-app
 npm start
 
 3. Access the Application
@@ -64,10 +66,10 @@ http://localhost:3000
 Create a .env file in the backend directory and define the required variables:
 
 PORT=5000
-DB_URI=mongodb://localhost:27017/hobby
+DB_URI=mongodb://localhost:27017/hobbyproject-main
 JWT_SECRET=your_secret_key
 
-Setup and Configuration
+# Setup and Configuration
 
 Backend: Configure database connection in backend/config/db.js.
 
