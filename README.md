@@ -1,11 +1,11 @@
 # Hobby Explorer
-HobbyHub
 
-Introduction
+
+# Introduction
 
 The HobbyExplorer is a web application designed to help users explore, track, and manage their hobbies efficiently. It features a backend API, a frontend interface, and a database to store user activities.
 
-Technologies
+# Technologies
 
 Frontend: React (hobbies-app)
 
@@ -19,17 +19,15 @@ Authentication: JWT
 
 Package Manager: npm
 
-Installation
+# Installation
 
-Prerequisites
+Prerequisites : Ensure you have the following installed:
 
-Ensure you have the following installed:
+1. Node.js & npm
 
-Node.js & npm
+2. MongoDB
 
-MongoDB
-
-Steps to Install
+# Steps to Install
 
 1. Clone the Repository
 
@@ -45,7 +43,7 @@ npm install
 cd ../hobbies-app
 npm install
 
-Usage
+# Usage
 
 1. Start the Backend Server
 
@@ -61,7 +59,7 @@ npm start
 
 http://localhost:3000
 
-Environment Variables
+# Environment Variables
 
 Create a .env file in the backend directory and define the required variables:
 
@@ -77,13 +75,7 @@ Frontend: Update API endpoint in hobbies-app/src/config.js.
 
 API Routes: Defined in backend/routes/.
 
-API Documentation
-
-API endpoints are available under /api.
-
-Example: http://localhost:5000/api
-
-Contributing
+# Contributing
 
 Fork the repository.
 
@@ -95,7 +87,7 @@ Push to the branch (git push origin feature-name).
 
 Open a Pull Request.
 
-License
+# License
 
 This project is licensed under the MIT License.
 
