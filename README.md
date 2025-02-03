@@ -31,7 +31,7 @@ Prerequisites : Ensure you have the following installed:
 
 1. Clone the Repository
 
-git clone https://github.com/yourusername/HobbyHub.git
+git clone 
 cd HobbyHub
 
 2. Install Dependencies
@@ -64,7 +64,7 @@ http://localhost:3000
 Create a .env file in the backend directory and define the required variables:
 
 PORT=5000
-DB_URI=mongodb://localhost:27017/hobbyhub
+DB_URI=mongodb://localhost:27017/hobby
 JWT_SECRET=your_secret_key
 
 Setup and Configuration
@@ -77,15 +77,15 @@ API Routes: Defined in backend/routes/.
 
 # Contributing
 
-Fork the repository.
+1. Fork the repository.
 
-Create a feature branch (git checkout -b feature-name).
+2. Create a feature branch (git checkout -b feature-name).
 
-Commit your changes (git commit -m 'Add feature').
+3. Commit your changes (git commit -m 'Add feature').
 
-Push to the branch (git push origin feature-name).
+4. Push to the branch (git push origin feature-name).
 
-Open a Pull Request.
+5. Open a Pull Request.
 
 # License
 
