@@ -53,15 +53,17 @@ npm install
 
 Start the Backend Server
 
-cd x23109394 Application/backend
+cd x23109394 Application/backend  
+
 npm start
 
 Start the Frontend
 
-cd x23109394 Application/hobbies-app
+cd x23109394 Application/hobbies-app  
+
 npm start
 
-3. Access the Application
+Access the Application
 
 http://localhost:3000
 
@@ -69,8 +71,10 @@ http://localhost:3000
 
 Create a .env file in the backend directory and define the required variables:
 
-PORT=5000
-DB_URI=mongodb://localhost:27017/hobbyproject-main
+PORT=5000  
+
+DB_URI=mongodb://localhost:27017/hobbyproject-main  
+
 JWT_SECRET=your_secret_key
 
 # Setup and Configuration
