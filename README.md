@@ -49,23 +49,6 @@ cd ../hobbies-app
 
 npm install
 
-# Usage
-
-Start the Backend Server
-
-cd x23109394 Application/backend  
-
-npm start
-
-Start the Frontend
-
-cd x23109394 Application/hobbies-app  
-
-npm start
-
-Access the Application
-
-http://localhost:3000
 
 # Environment Variables
 
